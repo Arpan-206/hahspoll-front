@@ -2,8 +2,8 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>Hashpoll</title>
+	<meta name="description" content="Hash Poll" />
 </svelte:head>
 
 <main>
