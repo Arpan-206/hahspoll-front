@@ -18,6 +18,10 @@ Hashpoll is a hashnode widget that enables seamless polls on any post. It is a l
 
 - [@Arpan-206](https://github.com/Arpan-206)
 
+# Hashnode Widgets
+
+You can learn how to use hashnode widget over [here](https://townhall.hashnode.com/hashnode-widgets).
+
 
 ## Tech Stack
 
