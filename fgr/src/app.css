@@ -1,0 +1,16 @@
+.center {
+    text-align: center;
+}
+.box-teal {
+    border-color: #00897b;
+    color: #00897b;
+}
+
+.box-click-teal {
+    background-color: rgba(0, 137, 123, 0.6);
+    color: #fff;
+}
+
+.invisible {
+    display: none;
+}
