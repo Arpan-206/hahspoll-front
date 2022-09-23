@@ -1,38 +1,67 @@
-# create-svelte
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+# Hashpoll (CLI)
 
-## Creating a project
+![Hashpoll Banner](https://github.com/Arpan-206/hashpoll-cli/raw/main/assets/Hashpoll.png)
 
-If you're seeing this, you've probably already done this step. Congrats!
+Hashpoll is a hashnode widget that enables seamless polls on any post. It is a lightweight tool that generates code for you to put in hashnode's widget field to create polls that just blend in with the rest of your content. You can use it directly from the command line or through the Web interface, and manage your poll as needed.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Features
 
-## Developing
+- Lightweight
+- CLI and Web Based
+- Seamless
+- Easy-to-integrate
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-```bash
-npm run dev
+## Authors
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+- [@Arpan-206](https://github.com/Arpan-206)
 
-## Building
 
-To create a production version of your app:
+## Tech Stack
 
-```bash
-npm run build
-```
+**Client:** AWS Amplify, Svelte, Typer, Rich, PicoCSS
 
-You can preview the production build with `npm run preview`.
+**Server:** Node, AWS Amplify, FastAPI
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Roadmap
+
+- Password Protection
+
+- In-depth analytics
+
+- Authentication
+
+- Ability to modify a poll
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+## Acknowledgements
+
+Hashpoll would like to thank the teams behind the following projects as they played a crucial part in enabling Hahpoll.
+
+ - [AWS Amplify](https://aws.amazon.com/amplify/)
+ - [Hashnode](https://hashnode.com/)
+ - [FastAPI](https://fastapi.tiangolo.com/)
+ - [Typer](https://typer.tiangolo.com/)
+ - [PicoCSS](https://picocss.com/)
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at [arpan@hackersreboot.tech](mailto:arpan@hackersreboot.tech).
+
+
+## Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
