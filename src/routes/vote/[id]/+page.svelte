@@ -7,7 +7,7 @@
 	let optpercents = [];
 	onMount(async () => {
 		const res = await fetch(
-			'https://24yl4zi1hh.execute-api.us-east-1.amazonaws.com/get/' + $page.params.id
+			'https://hashpoll-fastapi-production.up.railway.app/get/' + $page.params.id
 		);
 		if (res.ok) {
 			poll = await res.json();
@@ -17,7 +17,7 @@
 		}
 	});
 	async function vote(e) {
-		const res = await fetch('https://24yl4zi1hh.execute-api.us-east-1.amazonaws.com/vote', {
+		const res = await fetch('https://hashpoll-fastapi-production.up.railway.app/vote', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json'

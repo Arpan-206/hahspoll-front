@@ -5,7 +5,7 @@
 
     const data = {};
       const res = await fetch(
-        "https://24yl4zi1hh.execute-api.us-east-1.amazonaws.com/create",
+        "https://hashpoll-fastapi-production.up.railway.app/create",
         {
           method: "POST",
           headers: {
