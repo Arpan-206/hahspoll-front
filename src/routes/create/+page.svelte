@@ -5,7 +5,7 @@
 
     const data = {};
       const res = await fetch(
-        "https://hashpoll-fastapi-production.up.railway.app/create",
+        "https://hashapi.hackersreboot.tech/create",
         {
           method: "POST",
           headers: {

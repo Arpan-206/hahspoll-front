@@ -7,7 +7,7 @@
 	let optpercents = [];
 	onMount(async () => {
 		const res = await fetch(
-			'https://hashpoll-fastapi-production.up.railway.app/get/' + $page.params.id
+			'https://hashapi.hackersreboot.tech/get/' + $page.params.id
 		);
 		if (res.ok) {
 			poll = await res.json();
@@ -17,7 +17,7 @@
 		}
 	});
 	async function vote(e) {
-		const res = await fetch('https://hashpoll-fastapi-production.up.railway.app/vote', {
+		const res = await fetch('https://hashapi.hackersreboot.tech/vote', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json'
